@@ -13,20 +13,21 @@ public class MathGame
 
 	public static void main(String[] args)
 	{
-		int score = 0;
-		System.out.println("Hello, welcome to the CMD Math Game. You will need to combine 2 numbers between 50 and 5000.\nPut that calculator away and see how many you can get in a row.");
-		
-		while (true) 
-		{
 		Scanner input = new Scanner(System.in);
 		Random rand = new Random();
+		int score = 0;
+		System.out.println("Hello, welcome to the CMD Math Game. You will need to combine 2 numbers between 50 and 5000.\nPut that calculator away and see how many you can get in a row.");
+
+		while (true) 
+		{
+
 		
 		
 		// Intro
 		
 		
 		
-		// create two random numbers between 50 and 1000
+		// create two random numbers between 50 and 4000
 		
 		int numOne = rand.nextInt(50, 4000);
 		int numTwo = rand.nextInt(50, 4000);
