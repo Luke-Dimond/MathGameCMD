@@ -1,0 +1,1 @@
+To run the game open the Command Prompt Window and type java -jar MathGameCMD.jar
