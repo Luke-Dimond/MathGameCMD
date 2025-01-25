@@ -58,9 +58,9 @@ public class MathGame
 		
 		if (answer != numOne + numTwo) 
 		{
-			System.out.println("\nAh, tough luck. You gave me the wrong answer and now I have to take a point from you.");
-			if (score != 0) 
-			{
+				System.out.println("\nAh, tough luck. You gave me the wrong answer and now I have to take a point from you.");
+				if (score != 0) 
+				{
 				score--;
 				System.out.println("Your score is now: " + score +"\nWould you like to play again?\nYes  No: ");
 				String yesNo = input.nextLine();
@@ -74,9 +74,9 @@ public class MathGame
 					input.close();
 					System.exit(0);
 				}
-			}
-			else 
-			{
+				}
+				else 
+				{
 				System.out.print("Huh, seems you alredy got 0 points.\nWould you like to try again?\nYes  No: ");
 				String yesNo = input.nextLine();
 				
@@ -96,11 +96,11 @@ public class MathGame
 		}
 		else 
 		{
-				score++;
-				System.out.println("\nNice! Here's a point\nScore: " + score + "\nWould you like to play again? ");
-				System.out.print("\nYes  No: ");
-				String yesNo = input.next();
-				if(yesNo.equalsIgnoreCase("yes")) 
+			score++;
+			System.out.println("\nNice! Here's a point\nScore: " + score + "\nWould you like to play again? ");
+			System.out.print("\nYes  No: ");
+			String yesNo = input.next();
+			if(yesNo.equalsIgnoreCase("yes")) 
 				{
 					System.out.print("\n");
 					continue;
@@ -111,13 +111,13 @@ public class MathGame
 					System.exit(0);
 					
 				}
-		}//end of outer if-else
+			}//end of outer if-else
 		
 		}//end of while
 		
-		}//end of first while
+		//end of first while
 		
-	}
-	// end main
+	
+	}// end main
 
- //end class
+}//end class
