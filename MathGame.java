@@ -77,7 +77,7 @@ public class MathGame
 				}
 				else 
 				{
-				System.out.print("Huh, seems you alredy got 0 points.\nWould you like to try again?\nYes  No: ");
+				System.out.print("Huh, seems you already got 0 points.\nWould you like to try again?\nYes  No: ");
 				String yesNo = input.nextLine();
 				
 				if(yesNo.equalsIgnoreCase("yes")) 
