@@ -111,13 +111,8 @@ public class MathGame
 					System.exit(0);
 					
 				}
-			}//end of outer if-else
-		
-		}//end of while
-		
-		//end of first while
-		
-	
-	}// end main
+			}
+		}
+	}
 
 }//end class
